@@ -10,6 +10,8 @@ man_exec = DUMMY
 .virtual	pento penfrom pensave
 
 make:
+		-cd boot; make
+		-cd kernel; make
 		-cd a2ps;	make
 #		-cd ansitape;	make
 		-cd as;		make
