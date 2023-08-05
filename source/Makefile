@@ -12,6 +12,7 @@ man_exec = DUMMY
 make:
 		-cd boot; make
 		-cd kernel; make
+		-cd xwin; make
 		-cd a2ps;	make
 #		-cd ansitape;	make
 		-cd as;		make
